@@ -33,6 +33,7 @@
 		7D7776F919D0B34100656CDB /* office03.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D7776F819D0B34100656CDB /* office03.png */; };
 		7D7776FB19D0BB8700656CDB /* vvv.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D7776FA19D0BB8700656CDB /* vvv.png */; };
 		7D7776FD19D0BC2900656CDB /* Unknown.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7D7776FC19D0BC2900656CDB /* Unknown.jpeg */; };
+		7D7776FF19D0C1BB00656CDB /* cut.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7D7776FE19D0C1BB00656CDB /* cut.mp3 */; };
 		7DF0225C19D07A0A00BEE056 /* YouNeedMoreEffort.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7DF0225919D07A0A00BEE056 /* YouNeedMoreEffort.mp3 */; };
 		7DF0225D19D07A0A00BEE056 /* GoodJobMen.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7DF0225A19D07A0A00BEE056 /* GoodJobMen.mp3 */; };
 		7DF0225E19D07A0A00BEE056 /* WillBeOK.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7DF0225B19D07A0A00BEE056 /* WillBeOK.mp3 */; };
@@ -80,6 +81,7 @@
 		7D7776F819D0B34100656CDB /* office03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = office03.png; sourceTree = "<group>"; };
 		7D7776FA19D0BB8700656CDB /* vvv.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vvv.png; sourceTree = "<group>"; };
 		7D7776FC19D0BC2900656CDB /* Unknown.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Unknown.jpeg; sourceTree = "<group>"; };
+		7D7776FE19D0C1BB00656CDB /* cut.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cut.mp3; sourceTree = "<group>"; };
 		7DF0225919D07A0A00BEE056 /* YouNeedMoreEffort.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = YouNeedMoreEffort.mp3; sourceTree = "<group>"; };
 		7DF0225A19D07A0A00BEE056 /* GoodJobMen.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = GoodJobMen.mp3; sourceTree = "<group>"; };
 		7DF0225B19D07A0A00BEE056 /* WillBeOK.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = WillBeOK.mp3; sourceTree = "<group>"; };
@@ -201,6 +203,7 @@
 				7DF0225A19D07A0A00BEE056 /* GoodJobMen.mp3 */,
 				7DF0225B19D07A0A00BEE056 /* WillBeOK.mp3 */,
 				7D7776F419D0AED500656CDB /* Action.mp3 */,
+				7D7776FE19D0C1BB00656CDB /* cut.mp3 */,
 			);
 			name = SoundEffects;
 			sourceTree = "<group>";
@@ -297,6 +300,7 @@
 				0714D9BC19CED405005272C5 /* piiii.MP3 in Resources */,
 				07F3FA6019D05EF00070983F /* Scold.png in Resources */,
 				07F3FA5A19D05ED20070983F /* shin.png in Resources */,
+				7D7776FF19D0C1BB00656CDB /* cut.mp3 in Resources */,
 				7D7776F919D0B34100656CDB /* office03.png in Resources */,
 				0714D9BE19CED40E005272C5 /* pipipipiii.MP3 in Resources */,
 			);
