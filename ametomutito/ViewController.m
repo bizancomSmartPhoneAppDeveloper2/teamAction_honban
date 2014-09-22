@@ -153,7 +153,7 @@
     [self initialaiza];
     [self defaultView];
     if (isMainasuThree) {
-        [self ScaredScoldVoice];
+    [self ScaredScoldVoice];
     }else
         [self ScoldVoice];
 }
@@ -276,12 +276,12 @@
     components = [calender components:flags fromDate:self.datepicker.date];
     hour = components.hour;
     minute = components.minute;
-    NSLog(@"%d時間 %d分", hour, minute);
+    NSLog(@"%ld時間 %ld分", hour, minute);
 }
 
 -(void)showtimerlabel{
     //タイマーラベルを表示する
-    self.countdownlabel.text = [NSString stringWithFormat:@" %02d %02d %02d",hours,minuts,seconds];
+    self.countdownlabel.text = [NSString stringWithFormat:@" %02ld %02ld %02ld",(long)hours,(long)minuts,(long)seconds];
 }
 
 -(void)mainasushowtimerlabel{
@@ -291,12 +291,15 @@
     self.startlabel.textColor = [UIColor redColor];
     self.startlabel.text = @"ミッションピンチ！！";
     //マイナスのタイマーラベルを表示する
-    self.countdownlabel.text = [NSString stringWithFormat:@"-%02d %02d %02d",hours,minuts,seconds];
+    self.countdownlabel.text = [NSString stringWithFormat:@"-%02ld %02ld %02ld",hours,minuts,seconds];
 }
 
 -(void)showstartlabel{
     self.startlabel.text = @"ミッションスタート";
 }
+
+
+
 
 -(void)PreiseVoice//賞賛音声の入れ物です。
 {
@@ -307,7 +310,8 @@
     AudioServicesCreateSystemSoundID(soundfileURLRef, &soundID);
     AudioServicesPlaySystemSound(soundID);
 }
-
+ 
+ 
 -(void)ScoldVoice//叱責音声の入れ物です。
 {
     CFBundleRef maingundle = CFBundleGetMainBundle();
@@ -318,6 +322,8 @@
     AudioServicesPlaySystemSound(soundID);
 }
 
+
+
 -(void)ScaredScoldVoice//叱責音声の入れ物です。
 {
     CFBundleRef maingundle = CFBundleGetMainBundle();
@@ -326,7 +332,10 @@
     UInt32 soundID;
     AudioServicesCreateSystemSoundID(soundfileURLRef, &soundID);
     AudioServicesPlaySystemSound(soundID);
+
 }
+
+
 
 //タイマー使用中に見せたい画面構成を準備
 -(void)isActionView{
